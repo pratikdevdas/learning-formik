@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { useFormik } from "formik";
 import "./styles.css";
 import * as Yup from "yup";
+// yup is a dependancy which is cappable to validate passwords powerfully
 
 const SignupForm = () => {
   const formik = useFormik({
